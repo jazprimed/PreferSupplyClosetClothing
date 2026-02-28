@@ -1,0 +1,6 @@
+Instead of showing Primo Garb or Snazzy Suits, always show the duplicants' outfits from the supply closet.
+
+[img]https://github.com/jazprimed/PreferSupplyClosetClothing/raw//main/pics/outfitoverrideBA.png[/img]
+
+
+Please let me know if you encounter any bugs!
