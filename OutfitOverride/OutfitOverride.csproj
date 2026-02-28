@@ -7,8 +7,8 @@
     <ProjectGuid>{DB069EE1-16C7-4D2A-81DB-3AD182D6C7AC}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PreferSupplyClosetClothing</RootNamespace>
-    <AssemblyName>PreferSupplyClosetClothing</AssemblyName>
+    <RootNamespace>OutfitOverride</RootNamespace>
+    <AssemblyName>OutfitOverride</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
@@ -56,7 +56,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PreferSupplyClosetClothing.cs" />
+    <Compile Include="OutfitOverride.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
