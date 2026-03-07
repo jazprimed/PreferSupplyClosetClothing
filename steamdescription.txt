@@ -1,6 +1,18 @@
-Instead of showing Primo Garb or Snazzy Suits, always show the duplicants' outfits from the supply closet.
+Instead of showing Snazzy Suits, duplicants will always appear in their Supply Closet outfits.
 
-[img]https://github.com/jazprimed/PreferSupplyClosetClothing/raw//main/pics/outfitoverrideBA.png[/img]
+[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBA.png[/img]
+
+You can also optionally override Primo Garb and Warm Coats in the mod settings.
+[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/config.png[/img]
+
+Primo Garb
+[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAprimo.png[/img]
+
+Warm Coat
+[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAwarmcoat.png[/img]
 
 
 Please let me know if you encounter any bugs!
+
+// v1.1: Added mod settings to optionally override Primo Garb and Warm Coats with Supply Closet outfit visuals.
+
