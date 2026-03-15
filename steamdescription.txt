@@ -1,18 +1,25 @@
-Instead of showing Snazzy Suits, duplicants will always appear in their Supply Closet outfits.
+Instead of showing Snazzy Suits (and ), duplicants will always appear in their Supply Closet outfits.
 
-[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBA.png[/img]
+[img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBA.png[/img]
 
-You can also optionally override Primo Garb and Warm Coats in the mod settings.
-[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/config.png[/img]
+You can also configure other clothing types to use Supply Closet visuals instead and set the default state of the individual duplicant override. Snazzy Suits are always overridden, while Primo Garb and Warm Coats can be enabled here. You can also choose whether the outfit override starts enabled or disabled for each duplicant by default.
+[img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/config.png[/img]
 
-Primo Garb
-[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAprimo.png[/img]
+[h3]Primo Garb[/h3]
+[img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAprimo.png[/img]
 
-Warm Coat
-[img]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAwarmcoat.png[/img]
+[h3]Warm Coat[/h3]
+[img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAwarmcoat.png[/img]
 
+
+[h3]Individual Duplicant Override[/h3]
+
+Each duplicant has their own Enable Override / Disable Override button on the Blueprints tab of their info panel. The default state of this button can be configured in the mod settings.
+
+[img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/individualoverridedisable.png[/img]
+[img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/individualoverrideenable.png[/img]
 
 Please let me know if you encounter any bugs!
 
 // v1.1: Added mod settings to optionally override Primo Garb and Warm Coats with Supply Closet outfit visuals.
-
+// v1.2: Added the ability to enable or disable individual duplicant outfit override. Added mod setting to set the default state of the individual duplicant override to enabled or disabled.

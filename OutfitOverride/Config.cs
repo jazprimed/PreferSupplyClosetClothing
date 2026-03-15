@@ -1,10 +1,6 @@
 ﻿using Newtonsoft.Json;
 using PeterHan.PLib.Options;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OutfitOverride
 {
@@ -22,5 +18,10 @@ namespace OutfitOverride
         [Option("Override Warm Coats",
             "Replace the appearance of Warm Coats with the duplicant’s Supply Closet outfit.")]
         public bool OverrideWarmCoats { get; set; } = false;
+
+        [JsonProperty]
+        [Option("Default Individual Outfit Override",
+            "Whether the outfit override is enabled by default for individual duplicants. You can still toggle the override on or off for each duplicant separately.")]
+        public bool DefaultIndividualOverride { get; set; } = true;
     }
 }
