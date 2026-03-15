@@ -1,4 +1,4 @@
-Instead of showing Snazzy Suits (and ), duplicants will always appear in their Supply Closet outfits.
+Instead of showing Snazzy Suits, duplicants will always appear in their Supply Closet outfits.
 
 You can also configure other clothing types to use Supply Closet visuals instead and set the default state of the individual duplicant override. Snazzy Suits are always overridden, while Primo Garb and Warm Coats can be enabled here. You can also choose whether the outfit override starts enabled or disabled for each duplicant by default.
 
