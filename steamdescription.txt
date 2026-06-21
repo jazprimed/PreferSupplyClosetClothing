@@ -1,6 +1,6 @@
 Instead of showing Snazzy Suits, duplicants will always appear in their Supply Closet outfits.
 
-You can also configure other clothing types to use Supply Closet visuals instead and set the default state of the individual duplicant override. Snazzy Suits are always overridden, while Primo Garb and Warm Coats can be enabled here. You can also choose whether the outfit override starts enabled or disabled for each duplicant by default.
+You can also configure other clothing types to use Supply Closet visuals instead and set the default state of the individual duplicant override. Snazzy Suits are always overridden, while Primo Garb, Warm Coats, Pajamas, and Swimwear can be enabled here. You can also choose whether the outfit override starts enabled or disabled for each duplicant by default.
 
 [img width=100%]https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/config.png[/img]
 
@@ -15,3 +15,4 @@ Please let me know if you encounter any bugs!
 // v1.0: override Snazzy Suits and Primo Garb with duplicant's Supply Closet outfits.
 // v1.1: Added mod settings to optionally override Primo Garb and Warm Coats with Supply Closet outfit visuals.
 // v1.2: Added the ability to enable or disable individual duplicant outfit override. Added mod setting to set the default state of the individual duplicant override to enabled or disabled.
+// v1.3: Added the ability to override Pajamas and Swimwear with Supply Closet outfit visuals.

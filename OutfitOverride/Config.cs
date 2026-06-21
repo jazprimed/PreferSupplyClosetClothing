@@ -20,6 +20,16 @@ namespace OutfitOverride
         public bool OverrideWarmCoats { get; set; } = false;
 
         [JsonProperty]
+        [Option("Override Pajamas",
+            "Replace the appearance of Pajamas with the duplicant’s Supply Closet outfit.")]
+        public bool OverridePajamas { get; set; } = false;
+
+        [JsonProperty]
+        [Option("Override Swimwear",
+            "Replace the appearance of Swimwear with the duplicant’s Supply Closet outfit.")]
+        public bool OverrideSwimwear { get; set; } = false;
+
+        [JsonProperty]
         [Option("Default Individual Outfit Override",
             "Whether the outfit override is enabled by default for individual duplicants. You can still toggle the override on or off for each duplicant separately.")]
         public bool DefaultIndividualOverride { get; set; } = true;

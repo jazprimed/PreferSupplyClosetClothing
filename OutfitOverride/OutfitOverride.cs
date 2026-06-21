@@ -30,6 +30,8 @@ namespace PreferSupplyClosetClothing
         // Anim names of the different outfit types
         const string snazzyAnim = "body_shirt_decor01_kanim";
         const string warmCoatAnim = "body_shirt_hot_shearling_kanim";
+        const string pajamasAnim = "body_pajamas_kanim";
+        const string swimwearAnim = "body_wetsuit_kanim";
 
         static WearableAccessorizer.WearableType Postfix(WearableAccessorizer.WearableType __result, WearableAccessorizer __instance)
         {
@@ -52,6 +54,8 @@ namespace PreferSupplyClosetClothing
             // If we have the Outfit wearable, detect the specific anims.
             bool hasSnazzy = outfitWearable.AnimNames != null && outfitWearable.AnimNames.Contains(snazzyAnim);
             bool hasWarmCoat = outfitWearable.AnimNames != null && outfitWearable.AnimNames.Contains(warmCoatAnim);
+            bool hasPajamas = outfitWearable.AnimNames != null && outfitWearable.AnimNames.Contains(pajamasAnim);
+            bool hasSwimwear = outfitWearable.AnimNames != null && outfitWearable.AnimNames.Contains(swimwearAnim);
 
             // Decide whether the normal override logic would want to override
             bool shouldOverride = false;
@@ -63,27 +67,19 @@ namespace PreferSupplyClosetClothing
             }
             else if (hasWarmCoat)
             {
-                // Only override warm coats if enabled in config
-                if (Config.Instance.OverrideWarmCoats)
-                {
-                    shouldOverride = true;
-                }
-                else
-                {
-                    shouldOverride = false;
-                }
+                shouldOverride = Config.Instance.OverrideWarmCoats;
+            }
+            else if (hasPajamas)
+            {
+                shouldOverride = Config.Instance.OverridePajamas;
+            }
+            else if (hasSwimwear)
+            {
+                shouldOverride = Config.Instance.OverrideSwimwear;
             }
             else
             {
-                // Outfit isn't snazzy or warm coat, only override if Primo is enabled
-                if (Config.Instance.OverridePrimoGarb)
-                {
-                    shouldOverride = true;
-                }
-                else
-                {
-                    shouldOverride = false;
-                }
+                shouldOverride = Config.Instance.OverridePrimoGarb;
             }
 
             // Honor an explicit per-duplicant disabled state: if the duplicant has a saved state that

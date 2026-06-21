@@ -13,6 +13,9 @@ You can also configure other clothing types to use Supply Closet visuals instead
 #### Warm Coat
 ![alt text](https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBAwarmcoat.png "Warm Coat Before and After")
 
+#### Pajamas and Swimwear
+![alt text](https://raw.githubusercontent.com/jazprimed/PreferSupplyClosetClothing/main/pics/outfitoverrideBApjswim.png "Pajamas and Swimwear Before and After")
+
 
 ### Individual Duplicant Override
 
